@@ -1,4 +1,5 @@
-#saidjokasjdklj klasfjk jfksaj akljfkl jfkl adjfokasj lf sadj jhjk
-echo "Dobrý den"
-echo "Jak se máte"
-read nalada
+#!/bin/bash
+for (( i=1; i<=5; i++ ))
+do
+echo $i. "kolo"
+done
