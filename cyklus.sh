@@ -1,4 +1,6 @@
 #!/bin/bash
+cas=date +"Čas spuštění skriptu: %T"
+echo $cas >> veky.txt
 for (( i=1; i<=5; i++ ))
 do
 	echo $i. "Zadej svůj věk: "
@@ -12,4 +14,5 @@ do
 	else
 		echo "Je ti 18 a víc"
 fi
+echo $i." kolo: Věk je "$vek >>  veky.txt
 done
